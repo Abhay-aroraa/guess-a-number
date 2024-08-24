@@ -1,0 +1,80 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+p {
+    font-size: 1em;
+    margin: 0 0 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+.guesses, .lastResult, .lowOrHi {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+.resultParas {
+    margin-top: 20px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button h2 {
+    cursor: pointer;
+    color: #007bff;
+}
+
+.button h2:hover {
+    text-decoration: underline;
+}
